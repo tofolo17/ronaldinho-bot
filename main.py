@@ -1,3 +1,4 @@
+import os
 import asyncio
 
 import discord as disc
@@ -49,4 +50,4 @@ async def lindo(ctx):
     await ctx.send(pega_imagem())
 
 
-client.run("ODQ5MzA5MzQ2MTgwODkwNzA1.YLZS9w.M855FYRAnux7_CLlq-X77SVro9g")
+client.run(os.environ.get("IMG_KEY"))
