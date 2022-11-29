@@ -2,8 +2,8 @@ from random import choice
 
 from imgurpython import ImgurClient
 
-client_id = 'ac47ce53e56a6fb'
-client_secret = '1914a2917ca49a1ea70bbb1bc0b4bb8d38ed7845'
+client_id = os.environ.get('IMG_ID')
+client_secret = os.environ.get('IMG_SECRET')
 
 imgur = ImgurClient(client_id, client_secret)
 
