@@ -1,5 +1,5 @@
-import os
 import asyncio
+import os
 
 import discord as disc
 from discord.ext import commands
